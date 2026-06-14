@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Tarabya - TV Menü</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #FF69B4; overflow: hidden; }
+        .serif-title { font-family: 'Playfair Display', serif; }
+        .text-glow { text-shadow: 0 2px 10px rgba(255, 255, 255, 0.3); }
+        .fade-in { animation: fadeIn 0.8s ease-in-out forwards; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes marquee { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
+        .animate-marquee { animation: marquee 30s linear infinite; }
+    </style>
+</head>
+<body class="text-white h-screen flex flex-col justify-between p-6 select-none">
+
+    <header class="flex justify-center items-center border-b border-pink-400/40 pb-4">
+        <div class="text-center">
+            <h1 class="serif-title text-4xl font-extrabold tracking-wide text-glow">Yummy Tarabya</h1>
+            <p class="text-xs tracking-widest text-pink-200 uppercase font-semibold">Tatlının En Yummy Hali</p>
+        </div>
+    </header>
+
+    <main class="grid grid-cols-3 gap-6 my-4 flex-grow">
+        
+        <section class="bg-white/5 backdrop-blur-sm rounded-3xl p-6 border border-white/10 flex flex-col justify-between shadow-2xl">
+            <div>
+                <div class="flex items-center justify-between border-b border-white/20 pb-2 mb-3">
+                    <h2 class="serif-title text-2xl font-bold tracking-wide flex items-center"><span class="mr-2">🍓</span> Magnolyalar</h2>
+                </div>
+                <div class="space-y-2">
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Çilekli Magnolya</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Muzlu Cicibebeli Magnolya</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Oreolu Çilekli Magnolya</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">275 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Çilek & Muz Magnolya</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Çilekli Çikolata Rüyası</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Lotuslu Muzlu Magnolya</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">275 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Lotuslu Karamelli</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Bitter Çikolatalı Çilekli</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Muzlu Karamelli</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Muzlu Beyaz Çikolatalı</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Brownie Star</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">275 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Yummy Yummy</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                </div>
+            </div>
+            
+            <div class="pt-4 border-t border-white/20">
+                <h2 class="serif-title text-xl font-bold pb-2">🧇 Waffle Çeşitleri</h2>
+                <div class="space-y-1">
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Yummy Waffle</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">350 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Kova Waffle</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">325 ₺</span></div>
+                </div>
+            </div>
+
+            <div class="pt-4 border-t border-white/20">
+                <h2 class="serif-title text-xl font-bold pb-2">🍫 Profiterol</h2>
+                <div class="space-y-1">
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Profiterol 3 Top</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Profiterol 500gr</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">500 ₺</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white/5 backdrop-blur-sm rounded-3xl p-6 border border-white/10 flex flex-col shadow-2xl">
+            <div class="mb-6">
+                <div class="flex items-center justify-between border-b border-white/20 pb-2 mb-3">
+                    <h2 class="serif-title text-2xl font-bold tracking-wide">🍰 Cheesecake Çeşitleri</h2>
+                </div>
+                <div class="space-y-2">
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Frambuazlı Cheesecake</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">300 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Limonlu Cheesecake</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">300 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Lotus Cheesecake</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">300 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Oreo Cheesecake</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">300 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">San Sebastian</span><div class="flex-grow border-none mx-2"></div><span class="font-bold text-md">300 ₺</span></div>
+                </div>
+            </div>
+            <div class="pt-2 border-t border-white/20">
+                <h2 class="serif-title text-2xl font-bold pb-3">🍨 Tatlılar</h2>
+                <div class="space-y-2">
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Sütlaç</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">225 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Kazandibi</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">225 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Supangle</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">225 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Soğuk Baklava (4 Adet)</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">300 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Soğuk Baklava (500gr)</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">600 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Tiramisu</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Karamelli Trileçe</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Frambuazlı Trileçe</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Soğuk Kadayıf (4 Adet)</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">350 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Soğuk Kadayıf (500gr)</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">700 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Klasik Brownie</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">275 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Beyaz Çikolatalı Brownie</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md">275 ₺</span></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="flex flex-col space-y-6">
+            <section class="bg-[#1C448E] rounded-3xl p-6 border border-white/10 shadow-2xl flex-grow">
+                <div class="flex items-center justify-between border-b border-white/20 pb-3 mb-4">
+                    <h2 class="serif-title text-white flex items-center gap-2">
+                        <span class="text-2xl">🥗</span>
+                        <div class="flex flex-col items-center">
+                            <span class="text-3xl font-bold leading-tight">MEZELER</span>
+                            <span class="text-sm text-white/70 uppercase tracking-widest leading-tight">EV YAPIMI</span>
+                        </div>
+                    </h2>
+                    <span class="text-[10px] uppercase text-white font-extrabold px-2 py-1 rounded bg-[#FF69B4]">200 gr</span>
+                </div>
+                <!-- Sayfa 1: 10 Ürün -->
+                <div id="meze-page-1" class="space-y-[6px] fade-in text-white">
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Yaprak Sarma</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Kuru Patlıcan Dolma</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Haydari</span><span class="font-extrabold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Köpoğlu</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Muhammara</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Patlıcan Ezme</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Humus</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Havuç Tarator</span><span class="font-extrabold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Bombai Fasülye</span><span class="font-extrabold text-md">275 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Barbunya Pilaki</span><span class="font-extrabold text-md">250 ₺</span></div>
+                </div>
+                <!-- Sayfa 2: 11 Ürün -->
+                <div id="meze-page-2" class="space-y-[6px] fade-in hidden text-white">
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Amerikan Salatası</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Enginar Salatası</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Çerkes Tavuğu</span><span class="font-extrabold text-md">300 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Girit Ezme</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Pembe Sultan</span><span class="font-extrabold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Nohut Aşı</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Kuru Cacık</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Yeşil Zeytin Salatası</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Deniz Börülcesi</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Zeytinyağlı Taze Fasülye</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Atom</span><span class="font-extrabold text-md">250 ₺</span></div>
+                </div>
+                <!-- Sayfa 2: 11 Ürün -->
+                <div id="meze-page-2" class="space-y-[6px] fade-in hidden text-white">
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Amerikan Salatası</span><span class="font-extrabold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Enginar Salatası</span><span class="font-extrabold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Çerkes Tavuğu</span><span class="font-extrabold text-md">280 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Girit Ezme</span><span class="font-extrabold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Pembe Sultan</span><span class="font-extrabold text-md">175 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Nohut Aşı</span><span class="font-extrabold text-md">250 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Kuru Cacık</span><span class="font-extrabold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Yeşil Zeytin Salatası</span><span class="font-extrabold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Deniz Börülcesi</span><span class="font-extrabold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Zeytinyağlı Taze Fasülye</span><span class="font-extrabold text-md">200 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-semibold text-[14px]">Atom</span><span class="font-extrabold text-md">200 ₺</span></div>
+                </div>
+            </section>
+            
+            <section class="bg-white/5 backdrop-blur-sm rounded-3xl p-5 border border-white/10 shadow-2xl flex-shrink-0">
+                <div class="flex items-center justify-between border-b border-white/20 pb-2 mb-3"><h3 class="serif-title text-xl font-bold"><span class="mr-2">🥤</span> Soğuk İçecekler</h3></div>
+                <div class="space-y-2">
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Coca Cola / Zero</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md whitespace-nowrap">90 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Fuse Tea</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md whitespace-nowrap">90 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Sade Soda</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md whitespace-nowrap">60 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Limonlu Soda</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md whitespace-nowrap">80 ₺</span></div>
+                    <div class="flex justify-between items-baseline"><span class="font-medium text-[15px]">Su (0.5 L)</span><div class="flex-grow border-b border-dotted border-white/20 mx-2"></div><span class="font-bold text-md whitespace-nowrap">40 ₺</span></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-white text-pink-600 rounded-2xl p-3 flex items-center shadow-lg">
+        <div class="flex-grow overflow-hidden relative w-full px-4">
+            <div class="animate-marquee whitespace-nowrap text-sm font-bold flex space-x-12 items-center">
+                <span>🌸 TÜM MEZELERİMİZ VE TATLILARIMIZ GÜNLÜK OLARAK KENDİ MUTFAĞIMIZDA TAZE TAZE HAZIRLANMAKTADIR.</span>
+                <span>🌸 HER GÜN TAZE, HER LOKMADA MUTLULUK.</span>
+                <span>💳 FİYATLARIMIZA KDV DAHİLDİR.</span>
+                <span>📅 FİYAT GÜNCELLEME TARİHİ: 14.06.2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let currentMezePage = 1;
+        function toggleMezePages() {
+            const p1 = document.getElementById('meze-page-1');
+            const p2 = document.getElementById('meze-page-2');
+            
+            if (currentMezePage === 1) {
+                p1.classList.add('hidden');
+                p2.classList.remove('hidden');
+                currentMezePage = 2;
+            } else {
+                p2.classList.add('hidden');
+                p1.classList.remove('hidden');
+                currentMezePage = 1;
+            }
+        }
+        setInterval(toggleMezePages, 8000);
+    </script>
+</body>
+</html>
